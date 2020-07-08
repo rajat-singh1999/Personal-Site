@@ -31,6 +31,29 @@ p {
   color: #66BFBF;
 }
 
+.fixed-div {
+  top: 0px;
+  background-color: #66BFBF;
+  text-align: left;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+}
+
+.Menu-Text {
+  position: relative;
+  top: 20px;
+  color: #11999E;
+  font-family: arial, sans-serif;
+  margin-top: 100px;
+  padding: 50px 20px 0 20px;
+  text-decoration: none;
+}
+
+.Menu-Text:hover {
+  color: #EAF6F6;
+}
+
 .ruler {
   border-style: none;
   border-top: dotted;
@@ -49,6 +72,7 @@ p {
 .top-container {
   background-color: #ddf3f5;
   position: relative;
+  top: 50px;
   padding-top: 5%;
   height: 40%;
 }
@@ -177,4 +201,20 @@ p {
   color: #EAF6F6;
   font-size: 100%;
   padding-top: 10px
+}
+
+.div1 {
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.ProjectList {
+  line-height: 2;
+  text-align: left;
+  font-weight: bold;
+}
+
+.li {
+  text-decoration: underline;
 }
