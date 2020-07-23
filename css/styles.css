@@ -38,7 +38,6 @@ p {
   height: 50px;
   width: 100%;
   position: fixed;
-  z-index: 1;
 }
 
 .Menu-Text {
